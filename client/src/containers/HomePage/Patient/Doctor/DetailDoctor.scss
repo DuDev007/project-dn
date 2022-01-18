@@ -1,0 +1,32 @@
+.doctor-detail {
+  height: 50vh;
+
+  .intro-doctor {
+    height: 120px;
+  }
+
+  .content-left {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+  }
+  .avatar {
+    background: no-repeat center;
+    background-size: cover;
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  .content-right {
+    height: auto;
+    background-color: #f9f9f9;
+    .down {
+    }
+  }
+  .detail-info-doctor {
+    background-color: #f9f9f9;
+  }
+  .comment-doctor {
+  }
+}

@@ -1,0 +1,15 @@
+.background-specialty {
+  background-color: #eee;
+  .each-doctor {
+    background-color: white;
+  }
+  .description {
+    position: relative;
+    overflow: auto;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 1)
+    );
+  }
+}

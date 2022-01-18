@@ -1,0 +1,37 @@
+.preview-image-container {
+  display: flex;
+
+  .label-upload {
+    display: flex;
+
+    height: auto;
+    width: 130px;
+    padding: 5px;
+
+    background: #ddd;
+
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    i {
+      margin: auto;
+      margin-left: 10px;
+    }
+  }
+
+  .label-image {
+    height: auto;
+    width: 100%;
+
+    border: 1px solid #ddd;
+
+    background: center center no-repeat;
+    background-size: contain;
+
+    cursor: pointer;
+  }
+}
